@@ -13,19 +13,19 @@ I first started off by trying to run a classic php shell through the file upload
 I saved this code to a file and named it shell.php and uploaded it through the file upload functionality
 
 
-![flagoutput](../media/screenshots/shell-upload-output-n0s4n1ty.png)
+![flagoutput](../media/Screenshots/shell-upload-output-n0s4n1ty.png)
 
 afterwards I traversed to the URL where the file I executed a simple whoami command by appending '?cmd=whoami' to the URL
 
 
 
-![flagoutput](../media/screenshots/whoami-output-n0s4n1ty.png)
+![flagoutput](../media/Screenshots/whoami-output-n0s4n1ty.png)
 
 
 With www-data I cannot access the /root directory, so I know I have to try some light privilege escalation techniques. I start by trying the sudo -l command which outputs:
 
 
-![flagoutput](../media/screenshots/sudo-l-output-n0s4n1ty.png)
+![flagoutput](../media/Screenshots/sudo-l-output-n0s4n1ty.png)
 
 
 which leads me to believe that I can simply access the root directory with sudo privileges without having to escalate to a root user, so I run
@@ -35,7 +35,7 @@ which leads me to believe that I can simply access the root directory with sudo 
 to view all the files in root directory
 
 
-![rootoutput](../media/screenshots/ls-root-n0s4n1ty.png)
+![rootoutput](../media/Screenshots/ls-root-n0s4n1ty.png)
 
 
 Then it's BBQ chicken from there
@@ -47,7 +47,7 @@ Then it's BBQ chicken from there
 
     sudo cat /root/flag.txt
 
-![flagoutput](../media/screenshots/flag-n0s4n1ty.png)
+![flagoutput](../media/Screenshots/flag-n0s4n1ty.png)
 
     picoCTF{wh47_c4n_u_d0_wPHP_8ca28f94}
 
