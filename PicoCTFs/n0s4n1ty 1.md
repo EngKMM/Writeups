@@ -13,7 +13,7 @@ I first started off by trying to run a classic php shell through the file upload
 I saved this code to a file and named it shell.php and uploaded it through the file upload functionality
 
 
-![SHELLupload](../media/Screenshots/shell-upload-output-n0s4n1ty.png)
+![SHELLupload](../media/Screenshots/Shell-upload-output-n0s4n1ty.png)
 
 afterwards I traversed to the URL where the file I executed a simple whoami command by appending '?cmd=whoami' to the URL
 
@@ -25,7 +25,7 @@ Screenshots
 With www-data I cannot access the /root directory, so I know I have to try some light privilege escalation techniques. I start by trying the sudo -l command which outputs:
 
 
-![sudo-loutput](../media/Screenshots/sudo-l-output-n0s4n1ty.png)
+![sudo-loutput](../media/Screenshots/sudo-l--output-n0s4n1ty.png)
 
 
 which leads me to believe that I can simply access the root directory with sudo privileges without having to escalate to a root user, so I run
