@@ -57,7 +57,7 @@ Flag captured. Game over. 🎯
 
 # Lessons learned
 
-Don't waste trying to launch reverse shells on rooms like this cuz they're hosted on AWS and more than likely won't let you establish a connection and you'll spend twenty minutes trying to figure out what's wrong only to find out that you should have just stuck with the webshell instead of trying to be a ghetto red team operator
+Don't waste time trying to launch reverse shells on rooms like this cuz they're hosted on AWS and more than likely won't let you establish a connection and you'll spend twenty minutes trying to figure out what's wrong only to find out that you should have just stuck with the webshell instead of trying to be a ghetto red team operator
 
 !['loki gif'](../media/gifs/Frustrated-loki.gif)
 
