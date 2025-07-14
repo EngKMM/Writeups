@@ -17,7 +17,6 @@ I saved this code to a file and named it shell.php and uploaded it through the f
 
 afterwards I traversed to the URL where the file I executed a simple whoami command by appending '?cmd=whoami' to the URL
 
-Screenshots
 
 ![whoamioutput](../media/Screenshots/whoami-output-n0s4n1ty.png)
 
