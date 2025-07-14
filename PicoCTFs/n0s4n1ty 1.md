@@ -34,18 +34,21 @@ to view all the files in root directory
 
 Then it's BBQ chicken from there
 
-(funny gif here)
+!['loki gif'](../media/gifs/Devious-ahh-loki.gif)
+
 
 # Capturing the flag 🏁
 
     sudo cat /root/flag.txt
 
-(another funny gif here)
-
 Flag captured. Game over. 🎯
+
+!['loki gif'](../media/gifs/tom-hiddleston-loki-wink.gif)
+
 
 # Lessons learned
 
-Don't waste trying to launch reverse shells on rooms like this cuz they're hosted on AWS and more than likely won't let you establish a connection and you'll spend twenty minutes trying to figure out what's wrong only to find out that you should have just stuck with the webshell instead of trying to be a red team operator
+Don't waste trying to launch reverse shells on rooms like this cuz they're hosted on AWS and more than likely won't let you establish a connection and you'll spend twenty minutes trying to figure out what's wrong only to find out that you should have just stuck with the webshell instead of trying to be a ghetto red team operator
 
-(frustrated gif)
+!['loki gif'](../media/gifs/Frustrated-loki.gif)
+
